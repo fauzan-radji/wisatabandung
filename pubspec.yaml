@@ -62,6 +62,8 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -88,3 +90,14 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Staatliches
+      fonts:
+        - asset: fonts/staatliches/Staatliches-Regular.ttf
+    - family: Oxygen
+      fonts:
+        - asset: fonts/oxygen/Oxygen-Regular.ttf
+        - asset: fonts/oxygen/Oxygen-Bold.ttf
+          weight: 700
+        - asset: fonts/oxygen/Oxygen-Light.ttf
+          weight: 300
