@@ -25,7 +25,12 @@ class MainScreen extends StatelessWidget {
                 child: Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      Expanded(child: Image.asset(place.imageAsset)),
+                      Expanded(
+                        child: Hero(
+                          tag: place.name,
+                          child: Image.asset(place.imageAsset)
+                        )
+                      ),
                       Expanded(
                         child: Padding(
                             padding: const EdgeInsets.all(8.0),
